@@ -1,0 +1,307 @@
+body {
+  background-color: #f6f6f6;
+  font-family: "Roboto",Helvetica,Arial,sans-serif; }
+
+section {
+  width: 100% !important;
+  margin: 0 auto; }
+
+.container {
+  width: 100%; }
+  .container img {
+    width: 100%; }
+
+.navbar-nav {
+  margin-right: 6%; }
+  .navbar-nav .dropdown-menu {
+    left: 75%; }
+
+.page {
+  background-color: #f6f6f6; }
+
+.navbar-brand {
+  margin-left: 8rem; }
+  .navbar-brand .fa-lightbulb-o {
+    font-size: 30px; }
+  .navbar-brand h1 {
+    display: inline-block;
+    color: #414851; }
+
+.nav {
+  flex-wrap: none !important; }
+  .nav .nav-link {
+    color: #414851; }
+
+.fa-lightbulb-o::before {
+  position: absolute;
+  content: '\f0eb';
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 55px;
+  width: 55px;
+  height: 55px;
+  background: #8dbf41;
+  border-radius: 50%;
+  text-align: center;
+  top: 8px;
+  left: 82px; }
+
+.head-container {
+  padding: 42px 0px 25px; }
+
+.text h2 {
+  color: #8dbf41;
+  font-weight: 400; }
+.text .posible {
+  display: inline-block;
+  font: 400;
+  color: #8dbf41;
+  padding: 15px 18px;
+  border: solid 1px #8dbf41;
+  text-transform: capitalize; }
+.text .justo {
+  margin-top: 39px;
+  color: #414851;
+  font-size: 22px;
+  line-height: 32px;
+  font-family: "Roboto",Helvetica,Arial,sans-serif; }
+.text .row {
+  margin-top: 38px;
+  color: #8d939b; }
+  .text .row a {
+    color: #414851;
+    font-size: 17px;
+    line-height: 24px; }
+  .text .row .mini {
+    font-size: 13px;
+    font-weight: 300; }
+
+.carousel-item img {
+  position: relative; }
+
+.carousel-text {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  text-align: center;
+  opacity: 1;
+  color: white;
+  width: 80%; }
+  .carousel-text h2 {
+    font-size: 50px;
+    color: #ffffff; }
+  .carousel-text p {
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 300; }
+  .carousel-text a {
+    margin-top: 50px;
+    color: black;
+    display: inline-block;
+    font-weight: 400;
+    cursor: pointer;
+    border: 2px solid white;
+    background: white;
+    outline: none;
+    padding: 22px 24px;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none; }
+  .carousel-text a:hover {
+    background: none;
+    border-color: #8dbf41;
+    color: #8dbf41; }
+
+.parallax {
+  padding-bottom: 112px;
+  padding-top: 105px;
+  background-image: url("../img/parallax1.jpg");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto; }
+  .parallax .our {
+    text-align: center; }
+    .parallax .our h3 {
+      color: #ffffff;
+      text-align: center !important;
+      font-size: 1.75rem; }
+    .parallax .our .block {
+      position: relative;
+      padding-left: 51px;
+      text-align: left; }
+      .parallax .our .block .icon {
+        font-size: 42px;
+        line-height: 42px;
+        left: 7px;
+        position: absolute;
+        font: 400 32px/32px;
+        color: #8dbf41;
+        text-align: center;
+        left: 2px;
+        top: 18px; }
+      .parallax .our .block .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1;
+        font-size: inherit;
+        text-rendering: auto;
+        color: #8dbf41;
+        text-align: center; }
+    .parallax .our .btn {
+      min-width: 205px;
+      color: #ffffff;
+      background-color: transparent;
+      border-color: #8d939b;
+      padding: 22px 24px; }
+    .parallax .our .primary {
+      padding-bottom: 74px;
+      padding-top: 70px;
+      background: #8dbf41;
+      width: 100%; }
+
+.well {
+  padding-bottom: 93px;
+  padding-top: 107px;
+  background-color: #f6f6f6; }
+
+.row-our {
+  margin-top: 56px; }
+
+.text-center {
+  margin-top: 48px; }
+
+.text-center:hover .btn {
+  background-color: #8dbf41;
+  border-color: #8dbf41; }
+
+.primary {
+  padding-bottom: 74px;
+  padding-top: 70px;
+  background: #8dbf41;
+  width: 100%;
+  color: #fff; }
+  .primary h2 {
+    font-size: 50px;
+    text-align: center; }
+  .primary p {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    text-align: center; }
+
+.meet {
+  background-color: #f6f6f6;
+  padding-top: 20px; }
+  .meet .team {
+    margin-top: 34px; }
+    .meet .team h4 {
+      margin-top: 34px; }
+      .meet .team h4 a {
+        text-decoration: none;
+        color: #414851;
+        font-weight: 300; }
+    .meet .team .first {
+      margin-top: 18px;
+      font-size: 17px;
+      line-height: 18px;
+      font-weight: 400;
+      padding: 8px 7px;
+      display: inline-block;
+      color: #8dbf41;
+      padding: 15px 18px;
+      border: solid 1px #8dbf41;
+      text-transform: capitalize; }
+    .meet .team .next {
+      margin-top: 20px;
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 2;
+      color: #8d939b; }
+  .meet .link {
+    display: block;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%; }
+    .meet .link img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%; }
+    .meet .link .overlay {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      background: rgba(65, 72, 81, 0.5);
+      border-radius: 50%; }
+      .meet .link .overlay .social {
+        display: inline-block;
+        position: absolute;
+        top: 48%;
+        left: 8%; }
+        .meet .link .overlay .social .item {
+          list-style: none;
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          font-size: 25px;
+          color: #ffffff;
+          margin-right: 10px; }
+        .meet .link .overlay .social .item:hover {
+          color: #8dbf41; }
+  .meet .link:hover .overlay {
+    opacity: 1; }
+
+@media screen and (max-width: 1199px) {
+  .carousel-text h2 {
+    font-size: 20px; }
+  .carousel-text p {
+    font-size: 18px;
+    line-height: 28px; } }
+@media screen and (max-width: 950px) {
+  .carousel-text h2 {
+    font-size: 25px; }
+  .carousel-text p {
+    font-size: 22px;
+    line-height: 33px; }
+  .carousel-text a {
+    margin-top: 10px;
+    padding: 10px 17px;
+    font-size: 14px; } }
+@media screen and (max-width: 767px) {
+  .ss {
+    max-width: 370px;
+    margin: 0 auto; }
+
+  .carousel-text h2 {
+    font-size: 20px; }
+  .carousel-text p {
+    font-size: 12px;
+    line-height: 20px; }
+  .carousel-text a {
+    margin-top: 0px;
+    padding: 2px 9px;
+    font-size: 11px; }
+
+  .overlay .social {
+    margin-left: 20%; } }
+@media screen and (max-width: 470px) {
+  .carousel-text h2 {
+    font-size: 14px; }
+  .carousel-text p {
+    font-size: 8px;
+    line-height: 11px; }
+  .carousel-text a {
+    margin-top: 0px;
+    padding: 3px 8px;
+    font-size: 9px; } }
+
+/*# sourceMappingURL=index.css.map */
